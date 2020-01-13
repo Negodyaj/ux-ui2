@@ -1,0 +1,68 @@
+* {
+    color: white;
+}
+
+.box-example {
+    width: 400px;
+    height: 200px;
+    background-color: #bebebe;
+    margin-bottom: 30px;
+}
+
+.inner-div {
+    width: 60px;
+    height: 60px;
+    background-color: violet;
+}
+
+div {   /* 0001 */
+    color: purple !important;
+}
+
+#text {   /* 0100 */
+    color: yellow;
+}
+
+/* 1000 */
+
+th {
+    font-size: 34px;
+    color: red;
+}
+
+div,
+span,
+table {
+    color: aqua;
+}
+
+asdfasdfasdf {
+    color: #bababa;
+}
+
+.some-class {
+    color: springgreen;
+}
+
+[type="number"] {
+    border: 1px solid violet;
+}
+
+[href^="http://"] {
+    font-size: 40px;
+}
+
+a:first-child {
+    line-height: 100px;
+    display: block;
+}
+
+a:last-child {
+    line-height: 50px;
+    display: block;
+}
+
+.tabs.tabs-transparent .tab a:hover, 
+.tabs.tabs-transparent .tab .nav-link {
+    color: #fff;
+}
